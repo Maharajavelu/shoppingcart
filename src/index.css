@@ -1,13 +1,69 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.header{
+  text-align: center;
+}
+table {
+  margin: 10px 0px;
+  border-collapse: collapse;
+  width: 100%;
+}
+.table th{
+  background-color: #161313;
+  color: #dddada;
+  border: 1px solid #fff;
+  padding: 10px 97px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.Product td {
+  border: 1px solid #151414; 
+  text-align: center;
+}
+
+.discount table td {
+  padding: 2px 12px;
+  text-align: center;
+  
+  border: 1px solid #151414; 
+}
+
+/* product table css */
+
+.app .table table th {
+  padding: 0px 70px;
+  text-align: center;
+}
+.Product table td{
+  text-align: center;
+  border: 1px solid black;
+}
+.Product button{
+  width: 225px;
+  background-color: rgb(61, 144, 61);
+  color: #dddada;
+  font-weight: 400;
+}
+
+/* Shopping table css */
+.Shopping table th{
+  padding: 0px 70px;
+  text-align: center;
+}
+
+.Shopping table td{
+  text-align: center;
+  border: 1px solid black;
+}
+
+
+.Shopping button{
+  width: 225px;
+  background-color: rgb(181, 20, 20);
+  color: #dddada;
+  font-weight: 400;
+}
+
+/* Total price css */
+
+.Shopping .total{
+  width: fit-content;
+  margin-left: 630px;
 }
